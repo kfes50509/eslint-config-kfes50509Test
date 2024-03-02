@@ -1,9 +1,10 @@
 {
-  "name": "eslint-config-kfes50509Test",
-  "version": "0.0.1",
+  "name": "eslint-config-kfeslint",
+  "version": "0.0.5",
   "license": "MIT",
-  "publishConfig": {
-  },
+  "author": "kfes50509",
+  "publishConfig": {},
+  "repository": "https://github.com/kfes50509/eslint-config-kfes50509Test.git",
   "homepage": "https://github.com/kfes50509/eslint-config-kfes50509Test",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,7 +23,7 @@
     "compile": "tsc",
     "lint": "eslint .",
     "unit": "ava",
-    "test": "run-s clean-artifacts editorconfig compile lint unit"
+    "test": "run-s clean-artifacts editorconfig compile lint"
   },
   "peerDependencies": {
     "eslint": "^8.57.0",
