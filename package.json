@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kfeslint",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "MIT",
   "author": "kfes50509",
   "publishConfig": {},
@@ -26,10 +26,15 @@
     "test": "run-s clean-artifacts editorconfig compile lint"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.0.3",
