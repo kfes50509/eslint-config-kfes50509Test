@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d8eslint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "kevin.wen",
   "publishConfig": {},
@@ -26,7 +26,6 @@
     "test": "run-s clean-artifacts editorconfig compile lint"
   },
   "// peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
@@ -57,7 +56,6 @@
   },
   "dependencies": {
     "@types/eslint": "^8.56.5",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
