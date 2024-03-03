@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d8eslint",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "author": "kevin.wen",
   "publishConfig": {},
@@ -12,7 +12,8 @@
     "CHANGELOG.md",
     "LICENSE",
     "README.md",
-    "lib/**/*"
+    "lib/**/*.js",
+    "lib/**/*.ts"
   ],
   "scripts": {
     "clean-artifacts": "git clean lib -X --force",
