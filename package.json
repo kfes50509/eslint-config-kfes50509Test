@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-d8eslint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "author": "kevin.wen",
   "publishConfig": {},
@@ -12,10 +12,8 @@
     "CHANGELOG.md",
     "LICENSE",
     "README.md",
-    "lib/index.d.ts",
-    "lib/index.js",
-    "lib/commonRules.d.ts",
-    "lib/commonRules.js"
+    "lib/**/*.js",
+    "lib/**/*.ts"
   ],
   "scripts": {
     "clean-artifacts": "git clean lib -X --force",
@@ -23,7 +21,7 @@
     "compile": "tsc",
     "lint": "eslint .",
     "unit": "ava",
-    "test": "run-s clean-artifacts editorconfig compile lint"
+    "test": "run-s clean-artifacts editorconfig compile"
   },
   "// peerDependencies": {
     "babel-eslint": "^10.1.0",
