@@ -2,9 +2,13 @@
 
 eslint config包 (測試中...)
 
-`yarn add eslint-config-d8eslint @typescript-eslint/eslint-plugin --dev`
+> ## install package to devDependencies
+> `yarn add eslint-config-d8eslint @typescript-eslint/eslint-plugin --dev`
 
-### .eslintrc example
+---
+
+>>### .eslintrc example
+>> _P.S. supply .ts, .js_
 ```javascript
 module.exports = {
   env: {
@@ -22,3 +26,29 @@ module.exports = {
   },
   extends: ['d8eslint'],
 };
+```
+
+---
+
+>> ### react
+>> _P.S. supply .ts, .tsx, .js, .jsx, and the config is contain d8eslint's .js,.ts setting_
+```javascript
+extends: ['d8eslint/lib/react']
+```
+
+---
+
+>> ### .js files
+>> _P.S. supply .js_
+```javascript
+extends: ['d8eslint/lib/js']
+```
+
+
+---
+
+>> ### .ts files
+>> _P.S. supply .ts_
+```javascript
+extends: ['d8eslint/lib/ts']
+```
