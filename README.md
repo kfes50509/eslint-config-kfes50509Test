@@ -1,6 +1,6 @@
 # eslint-config-d8eslint
 
-eslint config包 (測試中...)
+eslint config包 (待轉移至gitlab CE)
 
 > ## install package to devDependencies
 > `yarn add eslint-config-d8eslint @typescript-eslint/eslint-plugin --dev`
